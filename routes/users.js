@@ -143,8 +143,8 @@ router.post('/', (req, res) => {
   const newUser = new User({
     firstname: req.body.firstname,
     lastname: req.body.lastname,
-    sex: req.body.sex,
-    age: req.body.age,
+    email: req.body.email,
+    phone: req.body.phone,
     password: req.body.password
   });
   newUser
